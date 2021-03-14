@@ -1,0 +1,756 @@
+body{
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;  
+    box-sizing: border-box;
+}
+
+.first_div{
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    background-color: grey;
+    background-color: #c1c3cc;
+    background-image: linear-gradient(
+76deg
+, rgba(193, 195, 204, 0.83) 35%, rgba(193, 195, 204, 0.28) 65%),url("https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg");
+
+    background-size: cover;
+    
+    
+}
+
+#topbar{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    width: 90%;
+    height: 13vh;
+    background-color: white;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    
+    
+}
+.icon{
+    width: 13%;
+    height: 95px;
+    background-color: #e47312;
+    display: inline-block;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+.title_elements{
+    display: inline-block;
+    padding-left: 23%;
+    display: flex;
+    flex-direction: end;
+}
+.ele{
+    display: inline-block;
+    padding-right: 50px;
+}
+#last_ele{
+    display: inline-block;
+    width: 50px;
+    height: 13vh;
+    background-color: #e47312;
+    padding-right: 60px;
+    padding-left: 62px;
+    font-size: 14px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: end;
+}
+#first_div{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+#first_div > h1{
+    font-size: 62px;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 0%;
+    display: inline-block;
+    margin-block-end: 0em;
+}
+#first_div > p{
+    font-size: 20px;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+    padding-top: 0%;
+}
+#first_div > button{
+    padding:15px 18px 15px 18px;
+    background-color:  #e47312;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+}
+#social{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    right: 2.7%;
+    
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    padding: 17px;
+    background-color: #0A1229;
+    margin-right: auto;
+    border-bottom: solid white;
+    border-width: thin;
+}
+.corner{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    height:30vh;
+    position: absolute;
+    top: 80%;
+    right: -2.5%;
+    left: auto;
+    margin-right: 2.3%;
+
+    background-color: #EA6F23;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+}
+.bottom{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.secondbar{
+    padding-top: 200px;
+    margin-left: 50px;
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.secondbar > h2{
+    font-weight: 200;
+    color: #91AFD7;
+    font-size: 15px;
+    padding-right: 25px;
+}
+.secondbar > h1{
+    font-size: 42px;
+    font-weight: 600;
+}
+.inside_second{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.bar{
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    padding-right: 15px;
+}
+.bar > p{
+    color: #91AFD7;
+    font-size: 18px;
+    font-weight: 300;
+}
+.whowe{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25vh;
+    align-items: center;
+    
+}
+.mat{
+    padding-left: 10%;
+
+}
+.mat > p{
+    font-size: 18px;
+    color: #91AFD7;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 200;
+    margin: 11%;
+
+}
+#work{
+    padding-left: 25px;
+}
+.mat >h1{
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    margin: 11%;
+    font-size: 3em;
+    font-weight: 500;
+
+    
+}
+.number{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.innum{
+    margin: 10px;
+}
+.innum > h1{
+    color: #e47312;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Dosis', sans-serif;
+}
+.innum > p{
+    font-family: Dosis, sans-serif;
+    color: #919197;
+    font-size: 17px;
+    margin: 10px;
+}
+.ig{
+    position: relative;
+}
+.ig .bt{
+    position:absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #EA6F25;
+    border-radius: 100%;
+    color: blanchedalmond;
+    border: none;
+    outline: none;
+    font-family: 'Dosis', sans-serif;
+    opacity: 0;
+
+}
+.bt:hover{
+    opacity: 1;
+}
+.toplist > h1{
+    font-size: 44px;
+    font-family: 'Dosis', sans-serif;
+    background-color: #F7F8FC;
+    font-weight: 500;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 10vh;
+}
+.list{
+    background-color: #F7F8FC;
+}
+.toplist{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.toplist > h3{
+    font-family: 'Dosis', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:#919197; 
+    padding-top: 15vh;
+    font-weight: 300;
+    padding-right: 5%;
+    padding-bottom: 10vh;
+}
+.letmake{
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(
+        72deg
+        , #e47312, rgba(255, 99, 97, 0.78)), url(https://nuuk-e3eaa.firebaseapp.com/assets/img/banner-2.jpg);
+    background-size: cover;
+    margin-top: 30vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#insidelet > h1{
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-size: 44px;
+    font-weight: 600;
+}
+#insidelet > h2{
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-weight: 300;
+}
+
+#insidelet > h3{
+    font-family: 'Dosis', sans-serif;
+    color:white ;
+    font-weight: 500;
+    font-size: 18px;
+}
+#insidelet{
+    padding-top: 10vh;
+}
+.low > h1{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 2.5em;
+    padding-left: 5%;
+}
+.low{
+    padding-top: 25vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.low > p{
+    font-family: 'Dosis', sans-serif;
+    color:#919197 ;
+    padding-right: 5%;
+}
+#bot{
+    background-color: #F7F8FC;
+}
+.ip{
+    width: 225.11px;
+    height: 133px;
+    position: relative;
+    display: inline-block;
+    background-color: white;
+}
+.ip >h3{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+
+}
+.ip > p{
+    font-family: 'Dosis', sans-serif;
+    color:#C8DBF6;
+    text-transform: capitalize;
+}
+.mago{
+    padding: 17px;
+    background-color: #e47312;
+    margin-right: auto;
+    border-bottom: solid white;
+    border-width: thin;
+}
+.bit{
+    display: flex;
+    flex-direction: column;
+}
+.ip .bit{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+.code{
+    display: flex;
+    flex-direction: column;
+}
+.mid{
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+    margin-bottom: 0px;
+}
+.multi{
+    width: 100%;
+    height: 100vh;
+    background-color: #F7F8FC;
+    margin-top: 0px;
+    position: relative;
+}
+.into > h2{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 44px;   
+}
+.bad{
+    width: 400px;
+    height: 230px;
+    padding-top: 25vh;
+    padding-left: 5%;
+}
+.into > h3{
+    font-family: 'Dosis', sans-serif;
+    color:#919EC1;
+    font-weight: 300;
+}
+.into > p{
+    font-family: 'Dosis', sans-serif;
+    color:#919EC1 ;
+    font-weight: 100;
+}
+.imp{
+    width: 265px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    padding-top: 5%;
+    position: relative;
+}
+.imp > h2{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+.imp >h3{
+    font-family: 'Dosis', sans-serif;
+    color: #CCBDD3;
+    font-weight: 100;
+    font-size: 1em;
+}
+.imp > p{
+    font-family: 'Dosis', sans-serif;
+    color: #CCBDD3;
+    font-weight: 300;
+    font-size: 1em;
+}
+.mark{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    margin: -115px auto 25px;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 100%;
+    background-image: linear-gradient(
+8deg
+, #ff6361, #e47312);
+    opacity: 1;
+    color: #fff;
+    font-size: 80px;
+    line-height: 80px;
+}
+.imp .mark{
+    position: relative;
+    top: 8%;
+    left:0%;
+    right:0%;
+}
+.multi .imp{
+    position: absolute;
+    top:0%;
+    left: 45%;
+}
+.impo{
+    width: 265px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    padding-top: 5%;
+    position: relative;
+
+}
+.impo >h2{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+.impo > h3{
+    font-family: 'Dosis', sans-serif;
+    color: #CCBDD3;
+    font-weight: 100;
+    font-size: 1em;
+}
+.impo > p{
+    font-family: 'Dosis', sans-serif;
+    color: #CCBDD3;
+    font-weight: 300;
+    font-size: 1em;   
+}
+.impo .mark{
+    position: relative;
+    top: 8%;
+    left:0%;
+    right:0%;   
+}
+.multi .impo{
+    position: absolute;
+    top:10%;
+    left: 70%;   
+}
+.impor{
+    width: 265px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    padding-top: 5%;
+    position: relative;
+
+}
+.impor > h2{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+.impor > h3{
+    font-family: 'Dosis', sans-serif;
+    color: #CCBDD3;
+    font-weight: 100;
+    font-size: 1em;
+}
+.impor > p{
+    font-family: 'Dosis', sans-serif;
+    color: #CCBDD3;
+    font-weight: 300;
+    font-size: 1em;   
+}
+.impor .mark{
+    position: relative;
+    top: 8%;
+    left:0%;
+    right:0%;   
+}
+.multi .impor{
+    position: absolute;
+    top:50%;
+    left: 45%; 
+}
+.import{
+    width: 265px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    padding-top: 5%;
+    position: relative;
+
+}
+.import > h2{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+.import > h3{
+    font-family: 'Dosis', sans-serif;
+    color: #CCBDD3;
+    font-weight: 100;
+    font-size: 1em;
+}
+.import > p{
+    font-family: 'Dosis', sans-serif;
+    color: #CCBDD3;
+    font-weight: 300;
+    font-size: 1em;   
+}
+.import .mark{
+    position: relative;
+    top: 8%;
+    left:0%;
+    right:0%;   
+}
+.multi .import{
+    position: absolute;
+    top:57%;
+    left: 70%; 
+}
+.tat > h1{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 2.5em;
+    padding-left: 5%;
+}
+.tat{
+    padding-top: 25vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.tat > p{
+    font-family: 'Dosis', sans-serif;
+    color:#919197 ;
+    padding-right: 5%;
+}
+.mart{
+    width: 380px;
+    height: 460px;
+    background-image: linear-gradient(
+158deg
+, #e47312, #ff6361);
+ display: inline-block;
+ position: relative;
+
+}
+.mart > h2{
+    padding-left: 5%;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-weight: 500;
+}
+.mart > p{
+    padding-left: 5%;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-weight: 200;
+}
+.mart > h3{
+    padding-left: 5%;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+}
+.noob{
+    width: 70px;
+    height: 110px;
+    display: inline-block;
+    
+}
+.noob > h1{
+    width: 70px;
+    height:50px;
+    background-color: #EB6E28;
+    font-family: 'Dosis', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.noob > h3{
+    width: 70px;
+    height: 40px;
+    background-color: white;
+    font-family: 'Dosis', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #AA9DAB;
+    margin-top: 0px;
+}
+
+
+.mart .noob{
+    position: absolute;
+    top: -4%;
+    right: 0%;
+}
+.pure{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+.jube{
+    width: 100%;
+    height: 25vh;
+    background-image: linear-gradient(
+56deg
+, #e47312, #ff6361);
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.jube > h3{
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-weight: 500;
+}
+.globe{
+    width: 90%;
+    height: 85vh;
+    background-color: #0a1229;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    
+}
+.pit > h3{
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-weight: 350;
+    font-size: 17px;
+}
+.pit > p{
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-weight: 400;
+}
+.pit{
+    width: 293px;
+    height: 225px;
+}
+.put > h2{
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+    padding-bottom: 10px;
+    
+}
+.nut > h3{
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 350;
+    font-size: 17px;
+}
+.bf{
+    padding-right: 10px;
+}
+.nut > p{
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    padding-left: 30px;
+}
+.put > p{
+    
+        font-family: 'Dosis', sans-serif;
+        color: white;
+        font-weight: 500;
+        font-size: 15px;
+        
+        
+    }
+.ipot{
+    width: 45%;
+    height: 95px;
+    background-color: #e47312;
+    display: inline-block;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    margin-top: 18vh;
+}
